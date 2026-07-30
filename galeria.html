@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Galeria de serviços — Ncguinchos</title>
+<meta name="description" content="Fotos reais de remoções feitas pela Ncguinchos, incluindo veículos de alto valor como Porsche e Lamborghini.">
+
+<!-- 🔒 SEGURANÇA (Lei 15): headers de segurança básicos via meta tag. -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline' fonts.googleapis.com; font-src fonts.gstatic.com; img-src 'self' data:; script-src 'self'; connect-src 'self'; frame-ancestors 'none'; base-uri 'self';">
+<meta http-equiv="X-Content-Type-Options" content="nosniff">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header>
+  <div class="nav wrap">
+    <div class="nav-left">
+      <div class="logo-box"><img src="assets/img/logo.png" alt="Ncguinchos — Remoção de Veículos"></div>
+      <ul class="menu">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="sobre.html">Sobre nós</a></li>
+        <li><a href="servicos.html">Serviços</a></li>
+        <li><a href="area-atendimento.html">Área de atendimento</a></li>
+        <li><a href="galeria.html" class="ativo">Galeria</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </div>
+    <a class="nav-phone" href="tel:+5511947642170">📞 Ligar agora — 24h</a>
+    <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="menuMobile" aria-label="Abrir menu">☰</button>
+  </div>
+  <nav class="menu-mobile" id="menuMobile">
+    <a href="index.html">Início</a>
+    <a href="sobre.html">Sobre nós</a>
+    <a href="servicos.html">Serviços</a>
+    <a href="area-atendimento.html">Área de atendimento</a>
+    <a href="galeria.html" class="ativo">Galeria</a>
+    <a href="contato.html">Contato</a>
+  </nav>
+  <div class="road-line" aria-hidden="true"></div>
+</header>
+
+<main>
+  <!-- MINI HERO -->
+  <section class="page-hero">
+    <div class="wrap">
+      <div class="breadcrumb"><a href="index.html">Início</a> / Galeria</div>
+      <div class="eyebrow">Trabalho entregue</div>
+      <h1>Serviços já realizados</h1>
+      <p class="lead">Fotos reais de remoções feitas pela Ncguinchos — do carro de passeio ao esportivo de alto valor, sempre com o mesmo cuidado no carregamento.</p>
+    </div>
+  </section>
+  <div class="road-line" aria-hidden="true" style="background-image:repeating-linear-gradient(90deg, var(--azul) 0 28px, transparent 28px 52px); opacity:1;"></div>
+
+  <!-- GALERIA -->
+  <section>
+    <div class="wrap">
+      <div class="galeria-grid">
+        <div class="galeria-item">
+          <div class="foto-wrap"><img src="assets/img/servico-porsche.jpeg" alt="Porsche 911 GT3 RS verde amarrado na plataforma do guincho, em rua arborizada de São Paulo" loading="lazy"></div>
+          <div class="legenda">
+            <strong>Transporte de esportivo</strong>
+            <span>Porsche 911 GT3 RS — carregamento na plataforma com amarração e proteção própria para carro rebaixado.</span>
+          </div>
+        </div>
+        <div class="galeria-item">
+          <div class="foto-wrap"><img src="assets/img/servico-lamborghini.jpeg" alt="Lamborghini Huracán branco amarrado na plataforma do guincho" loading="lazy"></div>
+          <div class="legenda">
+            <strong>Remoção de veículo de alto valor</strong>
+            <span>Lamborghini Huracán — subida na rampa sem contato do para-choque, cintas específicas para carro baixo.</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-head" style="margin-top:56px;">
+        <div class="eyebrow">Quer ver o seu carro aqui?</div>
+        <h2>Chama a gente pra próxima remoção</h2>
+        <p>Manda a localização no WhatsApp e a gente já sai com a plataforma pronta pro seu veículo.</p>
+      </div>
+      <div class="cta-row">
+        <a class="btn" style="background:var(--azul); color:var(--branco);" href="https://wa.me/5511947642170?text=Oi!%20Preciso%20de%20um%20guincho." target="_blank" rel="noopener noreferrer">Chamar no WhatsApp</a>
+        <a class="btn btn-outline" style="border-color:var(--azul); color:var(--azul);" href="tel:+5511947642170">Ligar agora</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer id="contato">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h3>Ncguinchos</h3>
+        <p>Remoção de veículos com atendimento 24h, todos os dias da semana.</p>
+      </div>
+      <div>
+        <h3>Contato</h3>
+        <ul>
+          <li><a href="https://wa.me/5511947642170" target="_blank" rel="noopener noreferrer">(11) 94764-2170 — WhatsApp</a></li>
+          <li><a href="https://wa.me/5511982971250" target="_blank" rel="noopener noreferrer">(11) 98297-1250 — WhatsApp</a></li>
+          <li>Rua Capricho, 91 — São Paulo/SP</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Atendimento</h3>
+        <ul>
+          <li>24 horas, todos os dias</li>
+          <li>Emergência e agendado</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="ano"></span> Ncguinchos — todos os direitos reservados.</span>
+      <span>*Tempo de chegada varia com trânsito e distância.</span>
+    </div>
+  </div>
+</footer>
+
+<!-- barra fixa mobile -->
+<div class="sticky-cta">
+  <a class="whats" href="https://wa.me/5511947642170?text=Oi!%20Preciso%20de%20um%20guincho." target="_blank" rel="noopener noreferrer">WhatsApp</a>
+  <a class="call" href="tel:+5511947642170">Ligar</a>
+</div>
+
+<script>
+  // 🔒 SEGURANÇA (Lei 10): textContent nunca interpreta HTML — seguro contra XSS por padrão.
+  document.getElementById('ano').textContent = new Date().getFullYear();
+
+  // Menu mobile (mesma lógica em todas as páginas)
+  var menuToggle = document.getElementById('menuToggle');
+  var menuMobile = document.getElementById('menuMobile');
+  if (menuToggle && menuMobile) {
+    menuToggle.addEventListener('click', function(){
+      var aberto = menuMobile.classList.toggle('aberto');
+      menuToggle.setAttribute('aria-expanded', aberto ? 'true' : 'false');
+    });
+  }
+</script>
+
+</body>
+</html>
